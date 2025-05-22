@@ -1,4 +1,4 @@
-iimport streamlit as st
+import streamlit as st
 from src.translate import load_model, translate_text
 
 st.title("🌍 AI Translator App")
