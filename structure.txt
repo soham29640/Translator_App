@@ -1,0 +1,20 @@
+Translator-App/
+│
+├── 📁 src/                       # Source code
+│   ├── __init__.py
+│   ├── translate.py             # Translation logic using HuggingFace
+│   └── ui_app.py                # UI (Gradio/Streamlit app)
+│
+├── 📁 models/                   # (Optional) Store custom models if any
+│
+├── 📁 data/                     # (Optional) Store example input/output texts
+│
+├── 📁 assets/                   # Icons, images, or demo GIFs
+│
+├── 📁 notebooks/                # (Optional) Jupyter Notebooks for experiments
+│
+├── .gitignore                  # Git ignored files (e.g., __pycache__)
+├── README.md                   # Project overview and instructions
+├── requirements.txt            # Python dependencies
+├── LICENSE                     # Open source license
+└── app.py                      # Entry point to run the app
