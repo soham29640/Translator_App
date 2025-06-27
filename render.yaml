@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: translator-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run streamlit_app/app.py --server.port=$PORT --server.enableCORS=false
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
