@@ -8,8 +8,8 @@ from src.translate import load_model, translate_text
 
 st.title("🌍 Translator App")
 
-src_lang = st.selectbox("From Language", ["en", "fr", "de", "es"])
-tgt_lang = st.selectbox("To Language", ["en", "fr", "de", "es"])
+src_lang = st.selectbox("From Language", ["en", "fr"])
+tgt_lang = st.selectbox("To Language", ["en", "fr"])
 
 text = st.text_area("Enter text to translate")
 
